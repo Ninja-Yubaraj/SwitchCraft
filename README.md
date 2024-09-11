@@ -1,29 +1,66 @@
-# Create T3 App
+# SwitchCraft: Customize Your Switchboards with Ease
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+**SwitchCraft** is a web-based tool that empowers you to create and customize switchboard layouts for homes and offices. Whether you're designing a new layout or updating an existing one, SwitchCraft provides a user-friendly interface to select, arrange, and configure switches to fit your space and preferences.
 
-## What's next? How do I make an app with this?
+## Key Features:
+- **Drag-and-drop interface** for easy customization
+- Multiple switch designs and configurations
+- Real-time previews of your switchboard
+- Save and share your designs with others
+- Compatible with both home and office switchboard systems
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+SwitchCraft makes it simple for professionals and homeowners to craft the perfect switchboard setup without hassle.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Folder Structure (App)
+.
+├─ prisma
+│  └─ schema.prisma
+├─ public
+│  └─ favicon.ico
+├─ src
+│  ├─ app
+│  │  ├─ _components
+│  │  │  └─ post.tsx
+│  │  ├─ api
+│  │  │  ├─ auth
+│  │  │  │  └─ [...nextauth]
+│  │  │  │     └─ route.ts
+│  │  │  └─ trpc
+│  │  │     └─ [trpc]
+│  │  │        └─ route.ts
+│  │  ├─ layout.tsx
+│  │  └─ page.tsx
+│  ├─ server
+│  │  ├─ auth.ts
+│  │  ├─ db.ts
+│  │  └─ api
+│  │     ├─ routers
+│  │     │  └─ example.ts
+│  │     ├─ trpc.ts
+│  │     └─ root.ts
+│  ├─ styles
+│  │  └─ globals.css
+│  ├─ env.js
+│  └─ trpc
+│     ├─ query-client.ts
+│     ├─ react.tsx
+│     └─ server.ts
+├─ .env
+├─ .env.example
+├─ .eslintrc.cjs
+├─ .gitignore
+├─ next-env.d.ts
+├─ next.config.js
+├─ package.json
+├─ postcss.config.cjs
+├─ prettier.config.js
+├─ README.md
+├─ T3README.md
+├─ tailwind.config.ts
+└─ tsconfig.json
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## TODO:
+- [ ] Setup Database (docker/mysql).
+- [ ] Setup NextAuth (secret/discord).
+- [ ] Setup Dev Environment.
+- [ ] Make it Deploy (vercel).
