@@ -12,6 +12,7 @@
 SwitchCraft makes it simple for professionals and homeowners to craft the perfect switchboard setup without hassle.
 
 ## Folder Structure (App)
+```
 .
 ├─ prisma
 │  └─ schema.prisma
@@ -58,9 +59,11 @@ SwitchCraft makes it simple for professionals and homeowners to craft the perfec
 ├─ T3README.md
 ├─ tailwind.config.ts
 └─ tsconfig.json
+```
 
 ## TODO:
-- [ ] Setup Database (docker/mysql).
-- [ ] Setup NextAuth (secret/discord).
-- [ ] Setup Dev Environment.
+- [x] Setup Dev Database (docker/mysql).
+- [x] Setup Dev NextAuth (secret/discord).
+- [x] Setup Dev Environment.
 - [ ] Make it Deploy (vercel).
+- [ ] Create the first page.
