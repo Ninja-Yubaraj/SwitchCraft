@@ -66,4 +66,4 @@ SwitchCraft makes it simple for professionals and homeowners to craft the perfec
 - [x] Setup Dev NextAuth (secret/discord).
 - [x] Setup Dev Environment.
 - [ ] Make it Deploy (vercel).
-- [ ] Create the first page.
+- [x] Create the first page.
