@@ -7,7 +7,7 @@ export function Navbar() {
      return (
           <header className="flex items-center justify-between p-4 border-b border-gray-700">
                <Link href="/" className="p-2 border border-gray-700 rounded">
-                    <h1 className="text-xl">Varni Digital</h1>
+                    <h1 className="text-xl">Switch Craft</h1>
                </Link>
                <div className="flex space-x-4 items-center">
                     <ThemeToggle />
