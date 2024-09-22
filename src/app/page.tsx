@@ -71,8 +71,8 @@ export default async function Home() {
       </p>
 
       <div className="mt-10 flex space-x-4">
-        <Button variant="outline" size="lg">Template</Button>
-        <Button variant="outline" size="lg">Custom</Button>
+        <Link href="#"><Button variant="outline" size="lg">Template</Button></Link>
+        <Link href="/custom"><Button variant="outline" size="lg">Custom</Button></Link>
       </div>
     </main>
   );
